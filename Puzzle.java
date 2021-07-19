@@ -6,7 +6,7 @@ public class Puzzle
     static HashMap<Integer,Integer> seen=new HashMap<Integer, Integer>();
     static Stack<String> operators=new Stack<String>();
     static int bruh;
-    public static void main()
+    public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
